@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="home">
+
+  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div id="lander">
+    <img id="profile" src="{{ site.profile_picture | relative_url }}">
+    <div id="personal-info">
+      <h1>{{ site.title }}</h1>
+      {%- if site.username -%}
+        <p><i>{{ site.username }}</i></p>
+      {%- endif -%}
+    </div>
+    <hr>
+  </div>
+
+  {{ content }}
+
+</div>

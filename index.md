@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+Hi, my name is Filippo. I am studing *Computer engineering* at the University of Trento.
+
+In my spare time I am improving my *personal project* and contributing to the *open source community*.
+I also like to get some time off the computer to take some [photos](https://www.instagram.com/filipporossi.jpg) and relax.
