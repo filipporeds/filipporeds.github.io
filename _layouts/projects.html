@@ -30,6 +30,9 @@ layout: default
             {{ repository.name | escape }}
           </a>
         </h3>
+        <p class="description">
+          {{ repository.description | escape }}
+        </p>
         <span class="language {{ repository.language | escape | downcase | slugify }}">
           {{ repository.language | escape }}
         </span>
@@ -39,9 +42,6 @@ layout: default
           {{ repository.license.spdx_id | escape }}
         </span>
         {% endif %}
-        <p class="description">
-          {{ repository.description | escape }}
-        </p>
       </li>
 		{% endfor %}
     </ul>	
