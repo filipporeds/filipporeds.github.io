@@ -9,7 +9,15 @@ layout: default
 
   <div class="post-content">
 		<ul class="post-list">
-  	{% for repository in site.github.public_repositories %}
+    {% comment %}
+    *
+    *  This loop loops through all public repositories
+    *  and sorts it by the front matter variable `updated_at` 
+    *  and than filters the collection with `reverse` in reverse order
+    *
+    {% endcomment %}
+    {% assign sorted = site.github.public_repositories | sort: 'updated_at' | reverse %}
+  	{% for repository in sorted %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ repository.updated_at | date: date_format }}</span>

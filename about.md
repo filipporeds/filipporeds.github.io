@@ -4,7 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Filippo. I am studing *Computer engineering* at the University of Trento.
+# Hello World,
+My name is *Filippo Rossi*. I write code and [make stuff](https://github.com/Qu4k).
 
-In my spare time I am improving my *personal project* and contributing to the *open source community*.
-I also like to get some time off the computer to take some [photos](https://www.instagram.com/filipporossi.jpg) and relax.
+Currently studing CS  at the *University of Trento*.
+
+I like to experiment with *new tecnology*, creating things that I then use on
+a daily basis. I am active in the open source community and I love bringing people
+toghether through technology.
+
+I also love [game development](https://filipporossi.itch.io) and game jams as a collaborative
+challenge for me and my friends.
