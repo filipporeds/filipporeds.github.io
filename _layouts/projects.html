@@ -18,7 +18,7 @@ layout: default
     {% endcomment %}
     {% assign sorted = site.github.public_repositories | sort: 'updated_at' | reverse %}
   	{% for repository in sorted %}
-      <li class="repository">
+      <li class="project {{ repository.language | escape | downcase | slugify }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">
           {{ repository.created_at | date: date_format }}
@@ -33,7 +33,7 @@ layout: default
         <p class="description">
           {{ repository.description | escape }}
         </p>
-        <span class="language {{ repository.language | escape | downcase | slugify }}">
+        <span class="language">
           {{ repository.language | escape }}
         </span>
         {%- if repository.license -%}
