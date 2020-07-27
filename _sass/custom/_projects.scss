@@ -8,13 +8,13 @@
     padding: 0.1rem 0.3rem;
     border-radius: 5px;
     display: inline-block;
+    margin-right: 0.5rem;
   }
   .licence {
     background-color: #f1f1f1;
     padding: 0.1rem 0.3rem;
     border-radius: 5px;
     display: inline-block;
-    margin-left: 0.5rem;
   }
   .description {
     margin-top: 5px;
@@ -45,4 +45,10 @@
 }
 .project.game-maker-language {
   @include language-mod(#71b417);
+}
+.project.jupyter-notebook {
+  @include language-mod(#DA5B0B);
+}
+.project.shell {
+  @include language-mod(#89e051);
 }
