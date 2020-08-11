@@ -8,7 +8,7 @@ My name is *Filippo Rossi*. I write code and [make stuff](https://github.com/Qu4
 
 Currently studing CS at the *University of Trento*.
 
-I like to experiment with *new tecnology*, creating things that I then use on
+I like to experiment with *new technologies*, creating things that I then use on
 a daily basis. I am active in the open source community and I love bringing people
 toghether through technology.
 
