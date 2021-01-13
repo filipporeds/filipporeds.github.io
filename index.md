@@ -4,7 +4,7 @@ title: Index
 ---
 
 # Hello World,
-My name is *Filippo Rossi*. I write code and [make stuff](https://github.com/Qu4k).
+My name is *Filippo Rossi*. I write code and [make stuff](https://github.com/filipporeds).
 
 Currently studing CS at the *University of Trento*.
 
