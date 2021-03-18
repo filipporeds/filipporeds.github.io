@@ -20,4 +20,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         coauthor_email: filipporeds@users.noreply.github.com
         coauthor_name: filipporeds
+        branch: main
         empty: true
